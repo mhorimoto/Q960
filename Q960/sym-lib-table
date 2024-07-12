@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XIAO")(type "KiCad")(uri "${KICAD_PROOT}/KiCAD_lib/Seeeduino_XIAO.lib/Seeeduino_XIAO.kicad_sym")(options "")(descr ""))
+)
