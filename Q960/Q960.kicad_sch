@@ -1032,335 +1032,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Coded_SH-7070"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Coded_SH-7070"
-				(at -7.62 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -7.62 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Complementary code"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary hex Complementary"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Nidec*Copal*SH*7010*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Coded_SH-7070_0_0"
-				(text "0"
-					(at 5.715 0 2700)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "1"
-					(at 5.2832 -2.1844 2475)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "2"
-					(at 4.0386 -4.0386 2250)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "3"
-					(at 2.1844 -5.2832 2025)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "4"
-					(at 0 -5.715 1800)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "5"
-					(at -2.1844 -5.2832 1575)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "6"
-					(at -4.0386 -4.0386 1350)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "7"
-					(at -5.2832 -2.1844 1125)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "8"
-					(at -5.715 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "9"
-					(at -5.2832 2.1844 675)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "A"
-					(at -4.0386 4.0386 450)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at -2.1844 5.2832 225)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "C"
-					(at 0 5.715 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "D"
-					(at 2.1844 5.2832 3375)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "E"
-					(at 4.0386 4.0386 3150)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "F"
-					(at 5.2832 2.1844 2925)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "SW_Coded_SH-7070_0_1"
-				(polyline
-					(pts
-						(xy -0.254 -2.54) (xy -0.254 2.032) (xy -0.762 1.524) (xy -1.27 1.524) (xy 0 2.794) (xy 1.27 1.524)
-						(xy 0.762 1.524) (xy 0.254 2.032) (xy 0.254 -2.54) (xy -0.254 -2.54) (xy -0.254 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_Coded_SH-7070_1_1"
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1932,6 +1603,207 @@
 				)
 			)
 		)
+		(symbol "holly:SW_CODED_0-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_CODED_0-F_0_1"
+				(rectangle
+					(start -5.334 -1.27)
+					(end 6.35 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.366)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_CODED_0-F_1_1"
+				(polyline
+					(pts
+						(xy 0 -5.334) (xy -1.016 -6.35) (xy -0.254 -6.35) (xy -0.254 -9.652) (xy 0.254 -9.652) (xy 0.254 -6.35)
+						(xy 1.016 -6.35) (xy 0 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0"
+					(at -3.048 -11.176 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "8"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "F"
+					(at 3.048 -11.176 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -10.16 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -12.7 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2036,18 +1908,6 @@
 		(uuid "0115752c-0c92-42f1-a019-b2030d6a3081")
 	)
 	(junction
-		(at 137.16 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a9e2ca6-88a9-4b2c-9491-b0f03ecfe197")
-	)
-	(junction
-		(at 115.57 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e13088d-5075-4633-b28f-66891be3555e")
-	)
-	(junction
 		(at 177.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2082,8 +1942,16 @@
 		(uuid "4dd2cac2-bd71-4cbe-8b63-85c2360055a4")
 	)
 	(no_connect
+		(at 119.38 60.96)
+		(uuid "69f2d8c6-6d54-4c8f-9538-7f95fb36e60d")
+	)
+	(no_connect
 		(at 107.95 60.96)
 		(uuid "6ebd8432-7b31-43a9-a010-c8503967e98e")
+	)
+	(no_connect
+		(at 115.57 105.41)
+		(uuid "87b0009a-fd76-4526-addd-40214fe4c3ec")
 	)
 	(no_connect
 		(at 111.76 60.96)
@@ -2103,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 115.57 113.03)
+			(xy 133.35 109.22) (xy 133.35 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2173,16 +2041,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 137.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2844517b-605a-4dff-af7b-a27fb98b0fe1")
-	)
-	(wire
-		(pts
 			(xy 139.7 154.94) (xy 69.85 154.94)
 		)
 		(stroke
@@ -2223,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 115.57 109.22)
+			(xy 137.16 109.22) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2293,16 +2151,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4f46e2-ee8b-449a-8f42-ad9b5ed1ad71")
-	)
-	(wire
-		(pts
 			(xy 218.44 82.55) (xy 218.44 88.9)
 		)
 		(stroke
@@ -2360,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "6af48781-0efd-4887-adf6-426f6b04a41f")
-	)
-	(wire
-		(pts
-			(xy 115.57 105.41) (xy 115.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a5a9ba-fc5d-4c59-9ec6-8e4bd0615465")
 	)
 	(wire
 		(pts
@@ -2600,16 +2438,6 @@
 			(type default)
 		)
 		(uuid "d2c76094-d085-495d-b988-16715c74a4a1")
-	)
-	(wire
-		(pts
-			(xy 119.38 60.96) (xy 119.38 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc4e922-60e8-43e4-acb2-c1746121a60b")
 	)
 	(wire
 		(pts
@@ -3071,6 +2899,83 @@
 		)
 	)
 	(symbol
+		(lib_id "holly:SW_CODED_0-F")
+		(at 60.96 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "666a2e9d-2ef3-4bb9-a996-2dbc390df88c")
+		(property "Reference" "U102"
+			(at 61.468 121.9285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 61.468 123.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HOLLY2:SW_CODED_4bit_SMD"
+			(at 60.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d9f9eb-2d0c-49f3-9153-03cd99de9877")
+		)
+		(pin "8"
+			(uuid "4f375424-fece-4f8f-830b-100761b35780")
+		)
+		(pin "C"
+			(uuid "d91c5da8-f022-4511-b6c6-5809bcac7e54")
+		)
+		(pin "4"
+			(uuid "74d1f828-57ad-4ea0-9caa-795bf8c53db5")
+		)
+		(pin "1"
+			(uuid "3df38dfd-2059-46ff-b53d-e8e337d5e8d4")
+		)
+		(instances
+			(project ""
+				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
+					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery")
 		(at 229.87 81.28 0)
 		(unit 1)
@@ -3135,6 +3040,83 @@
 			(project ""
 				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
 					(reference "BT101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "holly:SW_CODED_0-F")
+		(at 60.96 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8caeb111-ccff-4f95-b4d5-411371c97713")
+		(property "Reference" "U103"
+			(at 61.468 148.5985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 61.468 150.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HOLLY2:SW_CODED_4bit_SMD"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d9f9eb-2d0c-49f3-9153-03cd99de9877")
+		)
+		(pin "8"
+			(uuid "4f375424-fece-4f8f-830b-100761b35780")
+		)
+		(pin "C"
+			(uuid "d91c5da8-f022-4511-b6c6-5809bcac7e54")
+		)
+		(pin "4"
+			(uuid "74d1f828-57ad-4ea0-9caa-795bf8c53db5")
+		)
+		(pin "1"
+			(uuid "3df38dfd-2059-46ff-b53d-e8e337d5e8d4")
+		)
+		(instances
+			(project ""
+				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -3211,84 +3193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Coded_SH-7070")
-		(at 59.69 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a160f9ef-f2e5-4a76-8883-3e4a580c7057")
-		(property "Reference" "SW102"
-			(at 59.69 119.0455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Coded_SH-7070"
-			(at 59.69 121.4698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ja.aliexpress.com/item/4000917906566.html?gatewayAdapt=glo2jpn"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Complementary code"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "412e0c97-4b61-4303-8e5a-ac99312400c4")
-		)
-		(pin "2"
-			(uuid "30db6a6c-559d-44ea-a8ec-b0d161e63ea8")
-		)
-		(pin "8"
-			(uuid "c564f779-849e-42b2-84b1-445f8a0e948f")
-		)
-		(pin "1"
-			(uuid "d50abef7-32dc-4a33-b579-9a00957b9f93")
-		)
-		(pin "C"
-			(uuid "3aa6d096-b285-40f9-9fa5-c9f00886ad39")
-		)
-		(instances
-			(project ""
-				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
-					(reference "SW102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 80.01 72.39 90)
 		(unit 1)
@@ -3358,7 +3262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 113.03 0)
+		(at 133.35 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +3271,7 @@
 		(fields_autoplaced yes)
 		(uuid "c32d277c-7cf7-4ec1-9392-ad4ea248fdfb")
 		(property "Reference" "#PWR0102"
-			(at 115.57 119.38 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 117.1631 0)
+			(at 133.35 117.1631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 113.03 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 113.03 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 113.03 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,84 +3455,6 @@
 			(project ""
 				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
 					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Coded_SH-7070")
-		(at 59.69 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9124b3d-5054-4a86-bde0-c9281700d67d")
-		(property "Reference" "SW103"
-			(at 59.69 145.7155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Coded_SH-7070"
-			(at 59.69 148.1398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
-			(at 52.07 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ja.aliexpress.com/item/4000917906566.html?gatewayAdapt=glo2jpn"
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Complementary code"
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f56d05b1-8761-426f-8138-f3df985eed9b")
-		)
-		(pin "2"
-			(uuid "e00f1590-fd5e-4aac-8e56-51ea9896f509")
-		)
-		(pin "4"
-			(uuid "6a755be5-7cb3-4df4-be98-4b5f21fd2ba2")
-		)
-		(pin "8"
-			(uuid "3d1f3faa-0487-4dbd-8773-1bcbb5ab146f")
-		)
-		(pin "C"
-			(uuid "093598f6-d346-4138-be9e-0de62abf90b9")
-		)
-		(instances
-			(project ""
-				(path "/aa9b1917-073a-48a7-b08f-90b406395592"
-					(reference "SW103")
 					(unit 1)
 				)
 			)
