@@ -2565,7 +2565,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "179d45d1-0a7c-4bc8-b590-54be4ffe8ba6")
@@ -2578,7 +2578,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "INCL"
+		(property "Value" "TS-06104"
 			(at 63.373 88.8421 90)
 			(effects
 				(font
@@ -2596,7 +2596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/TS-06104.pdf"
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -2916,7 +2916,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S-2110A"
 			(at 61.468 123.6099 0)
 			(effects
 				(font
@@ -2924,7 +2924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOLLY2:SW_CODED_4bit_SMD"
+		(property "Footprint" "HOLLY2:S-2110A"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/s1000a_2000a.pdf"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -2942,7 +2942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ROTARY CODED SWITCH"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S-2110A"
 			(at 61.468 150.2799 0)
 			(effects
 				(font
@@ -3071,7 +3071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOLLY2:SW_CODED_4bit_SMD"
+		(property "Footprint" "HOLLY2:S-2110A"
 			(at 60.96 149.86 0)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/s1000a_2000a.pdf"
 			(at 60.96 149.86 0)
 			(effects
 				(font
@@ -3099,19 +3099,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5d9f9eb-2d0c-49f3-9153-03cd99de9877")
+			(uuid "a5d9f9eb-2d0c-49f3-9153-03cd99de9878")
 		)
 		(pin "8"
-			(uuid "4f375424-fece-4f8f-830b-100761b35780")
+			(uuid "4f375424-fece-4f8f-830b-100761b35781")
 		)
 		(pin "C"
-			(uuid "d91c5da8-f022-4511-b6c6-5809bcac7e54")
+			(uuid "d91c5da8-f022-4511-b6c6-5809bcac7e55")
 		)
 		(pin "4"
-			(uuid "74d1f828-57ad-4ea0-9caa-795bf8c53db5")
+			(uuid "74d1f828-57ad-4ea0-9caa-795bf8c53db6")
 		)
 		(pin "1"
-			(uuid "3df38dfd-2059-46ff-b53d-e8e337d5e8d4")
+			(uuid "3df38dfd-2059-46ff-b53d-e8e337d5e8d5")
 		)
 		(instances
 			(project ""
