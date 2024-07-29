@@ -2587,7 +2587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HOLLY2:TVDT18-050"
 			(at 57.15 87.63 0)
 			(effects
 				(font
