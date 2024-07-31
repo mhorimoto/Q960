@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "aa9b1917-073a-48a7-b08f-90b406395592")
 	(paper "A4")
+	(title_block
+		(title "IrBeacon Transmitter")
+		(date "2024-07-31")
+		(rev "1.00")
+		(company "AMPSD")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
