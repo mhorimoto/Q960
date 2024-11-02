@@ -1,5 +1,11 @@
+#include <TimerTC3.h>  // for XIAO
+
+#define ON  LOW
+#define OFF HIGH
+
 void setup(void) {
     void chgch(void);
+    void allLED(int);
 
     pinMode(2,INPUT_PULLUP);  // Change Ch Button
     pinMode(3,INPUT_PULLUP);  // U102_1
@@ -11,17 +17,28 @@ void setup(void) {
     pinMode(9,INPUT_PULLUP);  // U103_4
     pinMode(10,INPUT_PULLUP); // U103_8
     pinMode(11,OUTPUT);
-    digitalWrite(11,LOW);
+    pinMode(12,OUTPUT);
     pinMode(13,OUTPUT);
-    digitalWrite(13,LOW);
+    allLED(OFF);
 
     Serial.begin(115200);
     delay(700);
-    Serial.println("Q960 TEST Version 0.22");
+    Serial.println("Q960 TEST Version 0.30");
     chgch();
+    TimerTc3.initialize(1000000);  // 1sec timer
+    TimerTc3.attachInterrupt(interval_1sec);
     attachInterrupt(digitalPinToInterrupt(2), chgch, FALLING);
 }
 
+void interval_1sec(void) {
+    Serial.println("1sec");
+}
+
+void allLED(int s) {
+    digitalWrite(11,s);
+    digitalWrite(12,s);
+    digitalWrite(13,s);
+}
 int u_enc(int u) {
     int uv,a;
     int i;
@@ -32,8 +49,6 @@ int u_enc(int u) {
     }
     return(uv);
 }
-void loop(void) {
-}
 
 volatile int u102,u103,ch;
 
@@ -43,10 +58,13 @@ void chgch(void) {
     u103v = u_enc(7);
     chv = u102v*10 + u103v;
     if (chv!=ch) {
-        digitalWrite(LED_BUILTIN,HIGH);
+        digitalWrite(12,ON);
         Serial.print("Change CH=");
         Serial.println(chv);
         ch = chv;
     }
-    digitalWrite(LED_BUILTIN,LOW);
+    allLED(OFF);
+}
+
+void loop(void) {
 }
