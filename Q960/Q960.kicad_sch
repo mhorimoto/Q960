@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "IrBeacon Transmitter")
-		(date "2024-07-31")
-		(rev "1.00")
+		(date "2024-11-14")
+		(rev "1.10")
 		(company "AMPSD")
+		(comment 1 "R101を100から47Ωに変更")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -3216,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "47"
 			(at 80.01 69.7808 90)
 			(effects
 				(font
